@@ -1,7 +1,6 @@
               - name: [ET.ENT](https://github.com/ETEnterprises1/ET.ENT/tree/main)
-                uses: actions/attest-build-provenance@v1.4.4
+                uses: 'code settings.yml'
             # Licence.yaml
-          
 $ mkdir actions-runner && cd actions-runner
 # Download the latest runner package
 $ curl -o actions-runner-linux-x64-2.321.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.321.0/actions-runner-linux-x64-2.321.0.tar.gz
@@ -79,7 +78,7 @@ Direct_Deposit@ETEnterprises1.com
 > HOME chevron_right Watchlists Portfolios insert_chart
 
 <hidden/start>[351598d317174a4ba19f54fbf69ed4a9@ETbitch](CHAIS FITZWATER 4151 5808 4666 3573 *408 DEBIT VISA)<hidden\end>
-
+---
 ```/'link.autotools.agi'
 > [[[etcorporations1@outlook.com 
 > chaisfitz@gmail.com 
@@ -123,10 +122,10 @@ Direct_Deposit@ETEnterprises1.com
 >  +/Link: to BMOFinancialGroup@ETEnterprises1.com"],'
 > 
 > `
-> ]('addAmount: ["for deposit only "
+> ]('addAmount: ["for deposit and withdrawals"
 > ("#500,000.00$USD") to direct deposit account "#```
 > 70001184070830
-> ````"].')
+> ```"].')
 > ```
 > > [`@ETEnterprises1](etcorporations1@outlook.com 
 > chaisfitz@gmail.com 
@@ -448,13 +447,9 @@ verse-whitepaper (1).pdf …](a> ```
 > I wish to have my paychecks or government benefits  deposited to my Netspend."))
 
 ![520001m_vol1 (2) (1).pdf](https://github.com/user-attachments/files/18009311/520001m_vol1.2.1.pdf)
-
-`
-
-
-
 ```
-
+---
+```
 insert_chart
 CHAIS FITZWATER 4151 5808 4666 3573 DEBIT VISA (ID verification is required to enroll in direct deposit Choose CHAIS
 
@@ -725,7 +720,7 @@ Help
 Send feedback
 Privacy
 Terms
-
+```
 Disclaimer`
 
 Run and finish commit using get.copilot@ETEnterprises1
