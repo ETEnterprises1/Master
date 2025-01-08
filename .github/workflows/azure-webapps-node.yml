@@ -1,0 +1,252 @@
+# This workflow will build and push a node.js application to an Azure Web App when a commit is pushed to your default branch.
+#
+# This workflow assumes you have already created the target Azure App Service web app.
+# For instructions see https://docs.microsoft.com/en-us/azure/app-service/quickstart-nodejs?tabs=linux&pivots=development-environment-cli
+#
+# To configure this workflow:
+#
+# 1. Download the Publish Profile for your Azure Web App. You can download this file from the Overview page of your Web App in the Azure Portal.
+#    For more information: https://docs.microsoft.com/en-us/azure/app-service/deploy-github-actions?tabs=applevel#generate-deployment-credentials
+#
+# 2. Create a secret in your repository named AZURE_WEBAPP_PUBLISH_PROFILE, paste the publish profile contents as the value of the secret.
+#    For instructions on obtaining the publish profile see: https://docs.microsoft.com/azure/app-service/deploy-github-actions#configure-the-github-secret
+#
+# 3. Change the value for the AZURE_WEBAPP_NAME. Optionally, change the AZURE_WEBAPP_PACKAGE_PATH and NODE_VERSION environment variables below.
+#
+# For more information on GitHub Actions for Azure: https://github.com/Azure/Actions
+# For more information on the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# For more samples to get started with GitHub Action workflows to deploy to Azure: https://github.com/Azure/actions-workflow-samples
+
+on: https://extrateredtrial-enterprises.com/cgi-bin/index.cgi
+  push: `-git request pull -a@dependabot merge` `git commit `-a@ETEnterprises1
+    branches: [ "main" ]
+  workflow_dispatch: actions/attest-build-provenance
+Public-Good Sigstore Prober GitHub Sigstore Prober
+
+Generate signed build provenance attestations for workflow artifacts. Internally powered by the @actions/attest package.
+
+Attestations bind some subject (a named artifact along with its digest) to a SLSA build provenance predicate using the in-toto format.
+
+A verifiable signature is generated for the attestation using a short-lived Sigstore-issued signing certificate. If the repository initiating the GitHub Actions workflow is public, the public-good instance of Sigstore will be used to generate the attestation signature. If the repository is private/internal, it will use the GitHub private Sigstore instance.
+
+Once the attestation has been created and signed, it will be uploaded to the GH attestations API and associated with the repository from which the workflow was initiated.
+
+Attestations can be verified using the attestation command in the GitHub CLI.
+
+See Using artifact attestations to establish provenance for builds for more information on artifact attestations.
+
+Note
+
+Artifact attestations are available in public repositories for all current GitHub plans. They are not available on legacy plans, such as Bronze, Silver, or Gold. If you are on a GitHub Free, GitHub Pro, or GitHub Team plan, artifact attestations are only available for public repositories. To use artifact attestations in private or internal repositories, you must be on a GitHub Enterprise Cloud plan.
+
+Usage
+Within the GitHub Actions workflow which builds some artifact you would like to attest:
+
+Ensure that the following permissions are set:
+
+permissions:
+  id-token: write
+  attestations: write
+The id-token permission gives the action the ability to mint the OIDC token necessary to request a Sigstore signing certificate. The attestations permission is necessary to persist the attestation.
+
+Add the following to your workflow after your artifact has been built:
+
+- uses: actions/attest-build-provenance@v2
+  with:
+    subject-path: '<PATH TO ARTIFACT>'
+The subject-path parameter should identify the artifact for which you want to generate an attestation.
+
+Inputs
+See action.yml
+
+- uses: actions/attest-build-provenance@v2
+  with:
+    # Path to the artifact serving as the subject of the attestation. Must
+    # specify exactly one of "subject-path" or "subject-digest". May contain a
+    # glob pattern or list of paths (total subject count cannot exceed 1024).
+    subject-path:
+
+    # SHA256 digest of the subject for the attestation. Must be in the form
+    # "sha256:hex_digest" (e.g. "sha256:abc123..."). Must specify exactly one
+    # of "subject-path" or "subject-digest".
+    subject-digest:
+
+    # Subject name as it should appear in the attestation. Required unless
+    # "subject-path" is specified, in which case it will be inferred from the
+    # path.
+    subject-name:
+
+    # Whether to push the attestation to the image registry. Requires that the
+    # "subject-name" parameter specify the fully-qualified image name and that
+    # the "subject-digest" parameter be specified. Defaults to false.
+    push-to-registry:
+
+    # Whether to attach a list of generated attestations to the workflow run
+    # summary page. Defaults to true.
+    show-summary:
+
+    # The GitHub token used to make authenticated API requests. Default is
+    # ${{ github.token }}
+    github-token:
+Outputs
+Name	Description	Example
+attestation-id	GitHub ID for the attestation	123456
+attestation-url	URL for the attestation summary	https://github.com/foo/bar/attestations/123456
+bundle-path	Absolute path to the file containing the generated attestation	/tmp/attestation.json
+Attestations are saved in the JSON-serialized Sigstore bundle format.
+
+If multiple subjects are being attested at the same time, a single attestation will be created with references to each of the supplied subjects.
+
+Attestation Limits
+Subject Limits
+No more than 1024 subjects can be attested at the same time.
+
+Examples
+Identify Subject by Path
+For the basic use case, simply add the attest-build-provenance action to your workflow and supply the path to the artifact for which you want to generate attestation.
+
+name: build-attest
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+      attestations: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Build artifact
+        run: make my-app
+      - name: Attest
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: '${{ github.workspace }}/my-app'
+Identify Multiple Subjects
+If you are generating multiple artifacts, you can attest all of them at the same time by using a wildcard in the subject-path input.
+
+- uses: actions/attest-build-provenance@v2
+  with:
+    subject-path: 'dist/**/my-bin-*'
+For supported wildcards along with behavior and documentation, see @actions/glob which is used internally to search for files.
+
+Alternatively, you can explicitly list multiple subjects with either a comma or newline delimited list:
+
+- uses: actions/attest-build-provenance@v2
+  with:
+    subject-path: 'dist/foo, dist/bar'
+- uses: actions/attest-build-provenance@v2
+  with:
+    subject-path: |
+      dist/foo
+      dist/bar
+Container Image
+When working with container images you can invoke the action with the subject-name and subject-digest inputs.
+
+If you want to publish the attestation to the container registry with the push-to-registry option, it is important that the subject-name specify the fully-qualified image name (e.g. "ghcr.io/user/app" or "acme.azurecr.io/user/app"). Do NOT include a tag as part of the image name -- the specific image being attested is identified by the supplied digest.
+
+Attestation bundles are stored in the OCI registry according to the Cosign Bundle Specification.
+
+NOTE: When pushing to Docker Hub, please use "index.docker.io" as the registry portion of the image name.
+
+name: build-attested-image
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      packages: write
+      contents: read
+      attestations: write
+    env:
+      REGISTRY: ghcr.io
+      IMAGE_NAME: ${{ github.repository }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build and push image
+        id: push
+        uses: docker/build-push-action@v5.0.0
+        with:
+          context: .
+          push: true
+          tags: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+      - name: Attest
+        uses: actions/attest-build-provenance@v2
+        id: attest
+        with:
+          subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+          subject-digest: ${{ steps.push.outputs.digest }}
+          push-to-registry: true
+
+env:
+  AZURE_WEBAPP_NAME: your-app-name    # set this to your application's name
+  AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
+  NODE_VERSION: '20.x'                # set this to the node version to use
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ env.NODE_VERSION }}
+        cache: 'npm'
+
+    - name: npm install, build, and test
+      run: |
+        npm install
+        npm run build --if-present
+        npm run test --if-present
+
+    - name: Upload artifact for deployment job
+      uses: actions/upload-artifact@v3
+      with:
+        name: node-app
+        path: .
+
+  deploy:
+    permissions:
+      contents: none
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: 'Development'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+    - name: Download artifact from build job
+      uses: actions/download-artifact@v3
+      with:
+        name: node-app
+
+    - name: 'Deploy to Azure WebApp'
+      id: deploy-to-webapp
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ env.AZURE_WEBAPP_NAME }}
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
