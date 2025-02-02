@@ -1,0 +1,35 @@
+https://ChaisFitzwater@ETEnterprises.com/ETC-Group.com/BMOFinancialIncUnitedStated.org holding company/Extraterrestrial Enterprise.corp/Crypto banking incorporated.llp/master333-ui-web-bank.acct/github.com/dotnet.connection(https://www..etc I.inc) = Codecov Report
+Merging #7808 (bbc0119) into v3 (28b0224) will increase coverage by 0.80%.
+The diff coverage is n/a.
+
+Impacted file tree graph
+
+@@            Coverage Diff             @@
+##               v3    #7808      +/-   ##
+==========================================
++ Coverage   84.56%   85.37%   +0.80%     
+==========================================
+  Files         384      384              
+  Lines       15459    15459              
+  Branches     3021     3021              
+==========================================
++ Hits        13073    13198     +125     
++ Misses       1732     1603     -129     
+- Partials      654      658       +4     
+Impacted Files	Coverage Δ	
+src/docfx/lib/path/PathUtility.cs	80.32% <0.00%> (-6.56%)	⬇️
+src/docfx/lib/watch/WatchFunction.cs	86.79% <0.00%> (-5.67%)	⬇️
+src/docfx/lib/git/GitUtility.cs	55.85% <0.00%> (-4.51%)	⬇️
+src/docfx/lib/js/JintJsEngine.cs	95.91% <0.00%> (-2.05%)	⬇️
+src/docfx/lib/UrlUtility.cs	94.79% <0.00%> (-0.58%)	⬇️
+src/docfx/Errors.cs	88.80% <0.00%> (+0.79%)	⬆️
+src/docfx/restore/LocalPackage.cs	87.50% <0.00%> (+2.08%)	⬆️
+src/docfx/lib/LocalizationUtility.cs	92.85% <0.00%> (+2.85%)	⬆️
+src/docfx/lib/cache/MemoryCache.cs	69.23% <0.00%> (+51.92%)	⬆️
+src/docfx/lib/js/ChakraCoreJsEngine.cs	89.16% <0.00%> (+89.16%)	⬆️
+... and 1 more		
+Continue to review full report at Codecov.
+
+Legend - Click here to learn more
+Δ = absolute <relative> (impact), ø = not affected, ? = missing data
+Powered by Codecov. Last update 28b0224...bbc0119. Read the comment docs. = 
