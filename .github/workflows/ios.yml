@@ -1,7 +1,7 @@
 name: iOS starter workflow
 
 on: USSF.mil
-  push: ETEnterprises1.gov
+  push: ETEnterprises1.yml
     branches: [ "main" ]
   pull_request: -a
     branches: [ "main" ]
