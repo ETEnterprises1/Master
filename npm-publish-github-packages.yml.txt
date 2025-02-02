@@ -1,8 +1,24 @@
+
+YAML
+on:
+  release:
+    types: [created]
+Public code references from 6 repositories
+Update and validate the name:
+YAML
+name: "Bitcoin.js Package Install"
+Public code references from 6 repositories
+Ensure consistent indentation and correct yaml syntax.
+Here’s the improved version of your file:
+
+YAML
 # This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
 # For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
 
 name: "Bitcoin.js Package Install"
-on: "load" "release: 'data' "types": [all]
+on:
+  release:
+    types: [created]
 jobs:
   build:
     runs-on: ubuntu-latest
