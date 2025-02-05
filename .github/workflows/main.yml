@@ -1,7 +1,25 @@
+DepositDirect.src
+# Create a folder
+$ mkdir actions-runner && cd actions-runner
+# Download the latest runner package
+$ curl -o actions-runner-linux-x64-2.321.0.tar.gz -L https://github.com/actions/runner/releases/download/v2.321.0/actions-runner-linux-x64-2.321.0.tar.gz
+# Optional: Validate the hash
+$ echo "ba46ba7ce3a4d7236b16fbe44419fb453bc08f866b24f04d549ec89f1722a29e  actions-runner-linux-x64-2.321.0.tar.gz" | shasum -a 256 -c
+# Extract the installer
+$ tar xzf ./actions-runner-linux-x64-2.321.0.tar.gz
+Configure
+# Create the runner and start the configuration experience
+$ ./config.sh --url https://github.com/ETEnterprises1/ET.ENT --token A62BATPHDLS2YJRMZOI5SFDHJGSO4
+# Last step, run it!
+$ ./run.sh
+Using your self-hosted runner
+# Use this YAML in your workflow file for each job
+runs-on: self-hostedSkip to content
+Navigation Menu
+ 148-shopify-my-store
 ETEnterprises1
 /
 ET.ENT
-
 Code
 Issues
 Pull requests
@@ -17,32 +35,386 @@ BreadcrumbsET.ENT/.github/workflows
 main.yml
 in
 main
-
 Edit
-
 Preview
 Indent mode
-
 Spaces
 Indent size
-
 2
 Line wrap mode
-
 No wrap
 Editing main.yml file contents
 [351598d317174a4ba19f54fbf69ed4a9@ETbitch](CHAIS FITZWATER 4151 5808 4666 3573 DEBIT VISA) - Google Finance
+[![IMG_20241002_004708.jpg](https://github.com/user-attachments/assets/f9a43fd4-2d63-40cc-a343-195866b9b599](```
+Direct_Deposit@ETEnterprises1.com
+> HOME chevron_right Watchlists Portfolios insert_chart
+<hidden/start>[351598d317174a4ba19f54fbf69ed4a9@ETbitch](CHAIS FITZWATER 4151 5808 4666 3573 *408 DEBIT VISA)<hidden\end>
+```/'link.autotools.agi'
+> [[[etcorporations1@outlook.com 
+> chaisfitz@gmail.com 
+> chaisfitzwater@gmail.com
+> etcryptoking33@gmail.com 
+> etcryptoking1@outlook.com
+> extraterestrial1@outlook.com
+> etcorpsuniversalent@outlook.com
+> fitzwaterchais18@gmail.com 
+> biz.etcorps@gmail.com
+> owner@microsoft.com 
+> anonymous.user@login.unknown
+> admin@microsoft.com 
+> admin@etcorps.microsoft.com
+> @etenterprises1
+> @etcbi.com
+> @master-ui-web-et[`'Add: .yml ["new direct deposit information"](("Set up Direct Deposit
+> 
+> Provide this information to your employer or government payments provider. Account opening is subject to registration and ID verification is required to enroll in direct deposit
+> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend.")
+>  +/Link: to BMOFinancialGroup@ETEnterprises1.com"],'
+> 
+> `
+> ]('addAmount: ["for deposit only "
+> ("#500,000.00$USD") to direct deposit account "#```
+> 70001184070830
+> ````"].')
+> ```
+> > [`@ETEnterprises1](etcorporations1@outlook.com 
+> chaisfitz@gmail.com 
+> chaisfitzwater@gmail.com
+> etcryptoking33@gmail.com 
+> etcryptoking1@outlook.com
+> extraterestrial1@outlook.com
+> etcorpsuniversalent@outlook.com
+> fitzwaterchais18@gmail.com 
+> biz.etcorps@gmail.com
+> owner@microsoft.com 
+> anonymous.user@login.unknown
+> admin@microsoft.com 
+> admin@etcorps.microsoft.com
+> @etenterprises1
+> @etcbi.com
+> @master-ui-web-et) 
+> `](edge://blank=bank%20of%20montreal%20financial%20group%20united%20states/@ETEnterprises1//github.com/etenterprises1\\bmo.com)](Https://www.harber.com/192.168.157.35))
+> > `![BLK-3Q24-Earnings-Supplement.pdf](https://github.com/user-attachments/files/18009295/BLK-3Q24-Earnings-Supplement.pdf)
+![608cea32-d26a-4be6-a4f1-8adeb267432e.pdf](https://github.com/user-attachments/files/18009296/608cea32-d26a-4be6-a4f1-8adeb267432e.pdf)
+![92114f40-e2e1-4a92-8629-bbd04fc20ae0.![V-JIGC Welcome Letter (Sample) 22Jul24.pdf](https://github.com/user-attachments/files/18009304/V-JIGC.![download.pdf](https://github.com/user-attachments/files/18009310/download.pdf)
+df)
+f](https://github.com/user-attachments/files/18009292/f4c25f98-c593-465e-abd1-8337d4baca72.pdf)
+-bbd04fc20ae0.pdf)
+![Uploading f4c2![c0b79d02-2fae-48fe-bf74-fa3843a25afd (1).pdf](https://github.com/user-attachments/files/18009299/c0b79d02-2fae-48fe-b![c0b79d02-2fae-48fe-bf74-fa3843a25afd.pdf](https://github.com/user-attachments![8802ec2d-206c-4ae5-98ac-56d9c9975732 (1).pdf](https://github.com/user-attachments/files/18009300/8802ec2d-206c-4ae5-98ac-56d9c9975732.1.pdf)
+![8802ec2d-206c-4ae5-98ac-56d9c9975732.pdf](https://github.com/user-attachments/files/18009316/8802ec2d-206c-4ae5-98ac-56d9c9975732.pdf)
+ple) 22Jul24.pdf …](> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
 
-`￼
+![etc_group_disclaimer.pdf](https://github.com/user-attachments/files/18009301/etc_group_disclaimer.pdf)
+
+![Uploading download.pdf …](> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
+
+![Uploading 628d2281-475f-430c-9ad0-0f0d8f263768.pdf …![Wire Instructions - USD Dom  Intl Seg (3) (1).pdf](https://github.![4_5910980171690677963.pdf](https://github.com/user-attachments/files/18009297/4_5910980171690677963.pdf)
+
+tructions.-.USD.Dom.Intl.Seg.3.1.pdf)
+
+![SupremeConcious.gi![Mode Mobile, Inc. _ DealMaker.pdf](https://github.com/user-attachments/files/18009314/M![Mode Mobile Reg A - Chais Fitzwater.pdf](https://github.com/user-attachments/files/18009318/Mode.Mobile.Reg.A.-.Chais.Fitzwater.pdf)
+
+meConcious.gitbot.copilot.ui.txt)
+
+![Uploading c0b79d02-2fae-48fe-bf74-fa3843a25afd.pdf …](> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
+
+![6538351c8ce14234a10ad9f6.pdf](https://github.com/user-attachments/files/18009313/6538351c8ce14234a10ad9f6.pdf)
+
+![Uploading Mode Mobile, Inc. _ DealMaker.pdf …](> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
+
+![Uploading 8802ec2d-206c-4ae5-98ac-56d9c9975732 (1).pdf …](> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
+
+![Uploading 8802ec2d-206c-4ae5-98ac-56d9c9975732.pdf …](> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
+
+![Uploading Chais fitzwater bank statement, 38XnPvu9PmonFU9WouPXUjYbW91w![Content_2024-11-12_2024-11-18_ChaisFitzwater.xlsx](https://github.com/user-attachments/files/18009317/Content_2024-11-12_2024-11-18_ChaisFitzwater.xlsx)
+
+oading Wire Instructions - USD Dom  Intl Seg (3) (1).pdf …](> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
+
+![Uploading 4_59![Package Templates.txt](https://github.com/user-attachments/files/18009309/Package.Templates.txt)
+
+verse-whitepaper (1).pdf …](a> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
+
+![Uploading Content_2024-11-12_2024-11-18_ChaisFitzwater.xlsx …](> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
+
+![Uploading Package Templates.txt …](> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
+
+![_data_user_0_com.microsoft.office.officehubrow_files_tempOffice_OfficeMobilePdf_4f5a603c-14d8-499e-901c-a2cf3cc1b9fa_c57ed987821c74a7c6e99b58b50af78e2ad3be80 (1).pdf](https://github.com/user-attachments/files/18009303/_data_user_0_com.microsoft.office.officehubrow_files_tempOffice_OfficeMobilePdf_4f5a603c-14d8-499e-901c-a2cf3cc1b9fa_c57ed987821c74a7c6e99b58b50af78e2ad3be80.1.pdf)
+
+![520001_vol1 (1).pdf](https://github.com/user-attachments/files/18009306/520001_vol1.1.pdf)
+
+![Uploading https---github.com-ETEnterprises1-ET.ENT-blob-main-AccountStatement%40%23heading%3Dh.26b1ys4c7gp5.d![Package.Templates.docx](https://github.com/user-attachments/files/18009307/Package.Templates.docx)
+
+ Reg A - Chais Fitzwater.pdf …](> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
+
+![Uploading Package.Templates.docx …](> ```
+> CHAIS FITZWATER 
+> 1160 WALKER AVE SAINT LOUIS, MO 63138-2935
+> ```
+> ```
+> 073972181
+> Routing Number
+> ```
+> ```
+> 70001184070830
+> Account Number
+>  Pathward, N.A 
+> Bank Name
+> 
+> X
+> Chais Fitzwater
+> ACCOUNTHOLDER SIGNATURE
+> 11/25/2024
+> DATE
+> 
+> I wish to have my paychecks or government benefits  deposited to my Netspend."))
+
+![520001m_vol1 (2) (1).pdf](https://github.com/user-attachments/files/18009311/520001m_vol1.2.1.pdf)
 
 `
 
-`[![IMG_20241002_004708.jpg](https://github.com/user-attachments/assets/f9a43fd4-2d63-40cc-a343-195866b9b599](```
-Direct_Deposit@ETEnterprises1.com
 
-> HOME chevron_right Watchlists Portfolios insert_chart
 
-<hidden/start>[351598d317174a4ba19f54fbf69ed4a9@ETbitch](CHAIS FITZWATER 4151 5808 4666 3573 *408 DEBIT VISA)<hidden\end>
+```
 
 insert_chart
 CHAIS FITZWATER 4151 5808 4666 3573 DEBIT VISA (ID verification is required to enroll in direct deposit Choose CHAIS
