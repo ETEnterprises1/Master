@@ -14,4 +14,4 @@ $ ./run.sh
 Using your self-hosted runner
 # Use this YAML in your workflow file for each job
 runs-on: self-hosted
-API: key
+API: 26b1ys4c7gp5
