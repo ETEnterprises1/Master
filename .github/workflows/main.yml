@@ -754,29 +754,117 @@ To help you get started, this guide shows you some basic examples. For the full 
 Customizing when workflow runs are triggered
 Set your workflow to run on push events to the main and release/* branches
 ---
-on:
-  push:
-    branches:
+on: ios.yml
+  push: jekyll-docker.yml
+    branches: ET.ENT/.github/workflows
     - main
     - release/*
 Set your workflow to run on pull_request events that target the main branch
 
-on:
-  pull_request:
-    branches:
+on: https://www.dhs.gov/ntas/
+  pull_request: ET.ENT/.github/workflows, I ios.yml, US_President@WhiteHouse.gov, USA.gov, DHS.gov, ET.ENT/.github/workflows, main.yml, https://www.dhs.gov/ntas/Breadcrumbs,  ET.ENT/sso.github
+    branches: -a
     - main
 Set your workflow to run every day of the week from Monday to Friday at 2:00 UTC
 
-on:
-  schedule:
+on: mon-fri
+  schedule: every hour on the hour
   - cron: "0 2 * * 1-5"
 For more information, see "Events that trigger workflows."
 
 Manually running a workflow
 To manually run a workflow, you can configure your workflow to use the workflow_dispatch event. This enables a "Run workflow" button on the Actions tab.
 
-on:
-  workflow_dispatch:
+on: Skip to main content
+U.S. flag
+An official website of the United States government
+
+Here’s how you know
+
+Here’s how you know
+U.S. Department of Homeland Security logo
+Menu
+Breadcrumb
+Home  News  National Terrorism Advisory System  Developer Resources  Widget
+NTAS Widget
+Stay connected to any alerts from the Department of Homeland Security by placing this National Terrorism Advisory System widget on your website. Simply copy and paste the code below and the status will be updated on your site the moment it is on ours.
+
+
+
+<iframe src="https://www.dhs.gov/ntas/" name="National Terrorism Advisory System" title="National Terrorism Advisory System" width="170" height="180" scrolling="no" frameborder="0" seamless border="0"></iframe>
+NOTE: The width and height of the IFRAME can be adjusted to suit the design of your page. Please note that using a width smaller than 170 will obscure the NTAS image.
+
+Topics
+National Terrorism Advisory System
+Keywords
+Department of Homeland Security (DHS) National Terrorism Advisory System (NTAS)
+Last Updated: 12/04/2023
+
+Was this page helpful?
+Yes No
+Return to top
+Topics
+News
+In Focus
+How Do I?
+Get Involved
+About DHS
+U.S. Department of Homeland Security Seal
+Facebook
+X
+YouTube
+Flickr
+Instagram
+LinkedIn
+Email
+U.S. Department of Homeland Security Seal
+DHS.gov
+
+An official website of the U.S. Department of Homeland Security
+
+About DHS
+Accessibility
+Budget and Performance
+DHS Components
+FOIA Requests
+No FEAR Act Data
+Privacy Policy
+Site Links
+Vulnerability Disclosure Program
+Office of Inspector General
+The White House
+USA.gov
+
+
+  workflow_dispatch: Skip to content
+Navigation Menu
+
+Code
+Issues
+56
+Pull requests
+BreadcrumbsET.ENT/.github
+/workflows/
+Directory actionsMore options
+Latest commit
+ETEnterprises1
+ETEnterprises1
+1 minute ago
+History
+Folders and files
+Name	Last commit date
+parent directory
+..
+-git push request -a commits -a issues -a actions
+2 weeks ago
+ios.yml
+1 minute ago
+jekyll-docker.yml
+16 hours ago
+main.yml
+last week
+ET.ENT/.github/workflows at main · ETEnterprises1/ET.ENT
+ 
 For more information, see "Manually running a workflow."
 
 Running your jobs on different operating systems
@@ -784,8 +872,8 @@ GitHub Actions provides hosted runners for Linux, Windows, and macOS.
 
 To set the operating system for your job, specify the operating system using runs-on:
 
-jobs:
-  my_job:
+jobs: name, name
+  my_job: in 
     name: deploy to staging
     runs-on: ubuntu-22.04
 The available virtual machine types are:
@@ -802,7 +890,22 @@ To use an action, you must specify the repository that contains the action. We a
 
 - name: Setup Node
   uses: actions/setup-node@v4
-  with:
+  with: etcorporations1@outlook.com 
+chaisfitz@gmail.com 
+chaisfitzwater@gmail.com
+etcryptoking33@gmail.com 
+etcryptoking1@outlook.com
+extraterestrial1@outlook.com
+etcorpsuniversalent@outlook.com
+fitzwaterchais18@gmail.com 
+biz.etcorps@gmail.com
+owner@microsoft.com 
+anonymous.user@login.unknown
+admin@microsoft.com 
+admin@etcorps.microsoft.com
+@etenterprises1
+@etcbi.com
+@master-ui-web-et
     node-version: '20.x'
 For more information, see "Workflow syntax for GitHub Actions."
 
@@ -818,20 +921,20 @@ You can automatically run a job across a set of different values, such as differ
 
 For example, this job uses a matrix strategy to run across 3 versions of Node and 3 operating systems:
 
-jobs:
-  test:
+jobs: uses, name, name
+  test: name
     name: Test on node ${{ matrix.node_version }} and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
+    strategy: matrix.os
+      matrix: ETEnterprises1
         node_version: ['18.x', '20.x']
         os: [ubuntu-latest, windows-latest, macOS-latest]
 
-    steps:
+    steps: uses, name, name, 
     - uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node_version }}
       uses: actions/setup-node@v4
-      with:
+      with: 
         node-version: ${{ matrix.node_version }}
 
     - name: npm install, build and test
@@ -846,32 +949,32 @@ GitHub Actions supports conditions on steps and jobs using data present in your 
 
 For example, to run a step only as part of a push and not in a pull_request, you can specify a condition in the if: property based on the event name:
 
-steps:
+steps: run, publish 
 - run: npm publish
   if: github.event_name == 'push'
 For more information, see "Contexts and expression syntax for GitHub Actions."
 
 New File at / · ETEnterprises1/ET.ENT 'all'
-    branches:
+    branches: -a
     - main
     - release/*
 Set your workflow to run on pull_request events that target the main branch
 
-on:
-  pull_request:
-    branches:
+on: load
+  pull_request: -a
+    branches: -a
     - main
 Set your workflow to run every day of the week from Monday to Friday at 2:00 UTC
 
-on:
-  schedule:
+on: load
+  schedule: every 1hour
   - cron: "0 2 * * 1-5"
 For more information, see "Events that trigger workflows."
 
 Manually running a workflow
 To manually run a workflow, you can configure your workflow to use the workflow_dispatch event. This enables a "Run workflow" button on the Actions tab.
 
-on:
+on: pre-load
   workflow_dispatch:
 For more information, see "Manually running a workflow."
 
@@ -880,8 +983,8 @@ GitHub Actions provides hosted runners for Linux, Windows, and macOS.
 
 To set the operating system for your job, specify the operating system using runs-on:
 
-jobs:
-  my_job:
+jobs: run -a
+  my_job: publish
     name: deploy to staging
     runs-on: ubuntu-22.04
 The available virtual machine types are:
@@ -898,7 +1001,7 @@ To use an action, you must specify the repository that contains the action. We a
 
 - name: Setup Node
   uses: actions/setup-node@v4
-  with:
+  with: Verification lD56255766
     node-version: '20.x'
 For more information, see "Workflow syntax for GitHub Actions."
 
@@ -914,20 +1017,35 @@ You can automatically run a job across a set of different values, such as differ
 
 For example, this job uses a matrix strategy to run across 3 versions of Node and 3 operating systems:
 
-jobs:
-  test:
+jobs: https://www.dhs.gov/ntas/
+  test: USA.gov
     name: Test on node ${{ matrix.node_version }} and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
+    strategy: US_President@WhiteHouse.gov
+      matrix: ios.yml
         node_version: ['18.x', '20.x']
         os: [ubuntu-latest, windows-latest, macOS-latest]
 
-    steps:
+    steps: uses, name ,name ,
     - uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node_version }}
       uses: actions/setup-node@v4
-      with:
+      with: etcorporations1@outlook.com 
+chaisfitz@gmail.com 
+chaisfitzwater@gmail.com
+etcryptoking33@gmail.com 
+etcryptoking1@outlook.com
+extraterestrial1@outlook.com
+etcorpsuniversalent@outlook.com
+fitzwaterchais18@gmail.com 
+biz.etcorps@gmail.com
+owner@microsoft.com 
+anonymous.user@login.unknown
+admin@microsoft.com 
+admin@etcorps.microsoft.com
+@etenterprises1
+@etcbi.com
+@master-ui-web-et
         node-version: ${{ matrix.node_version }}
 
     - name: npm install, build and test
@@ -1528,3 +1646,81 @@ steps:
 For more information, see "Contexts and expression syntax for GitHub Actions."
 
 New File at / · ETEnterprises1/ET.ENT
+
+version: "3.5"
+x-environment:
+  &QUICKSTART_ENVIRONMENT # These are read from .env file. The values in the .env file maybe overriden by shell envvars
+  PLAID_CLIENT_ID: ${PLAID_CLIENT_ID}
+  PLAID_SECRET: ${PLAID_SECRET}
+  PLAID_PRODUCTS: ${PLAID_PRODUCTS}
+  PLAID_COUNTRY_CODES: ${PLAID_COUNTRY_CODES}
+  PLAID_REDIRECT_URI: ${PLAID_REDIRECT_URI}
+  PLAID_ENV: ${PLAID_ENV}
+services:
+  go:
+    networks:
+      - "quickstart"
+    depends_on:
+      - "frontend"
+    build:
+      context: .
+      dockerfile: ./go/Dockerfile
+    ports: ["8000:8000"]
+    environment:
+      <<: *QUICKSTART_ENVIRONMENT
+  java:
+    networks:
+      - "quickstart"
+    depends_on:
+      - "frontend"
+    build:
+      context: .
+      dockerfile: ./java/Dockerfile
+    ports: ["8000:8000"]
+    environment:
+      <<: *QUICKSTART_ENVIRONMENT
+  node:
+    networks:
+      - "quickstart"
+    depends_on:
+      - "frontend"
+    build:
+      context: .
+      dockerfile: ./node/Dockerfile
+    ports: ["8000:8000"]
+    environment:
+      <<: *QUICKSTART_ENVIRONMENT
+  python:
+    networks:
+      - "quickstart"
+    depends_on:
+      - "frontend"
+    build:
+      context: .
+      dockerfile: ./python/Dockerfile
+    ports: ["8000:8000"]
+    environment:
+      <<: *QUICKSTART_ENVIRONMENT
+  ruby:
+    networks:
+      - "quickstart"
+    depends_on:
+      - "frontend"
+    build:
+      context: .
+      dockerfile: ./ruby/Dockerfile
+    ports: ["8000:8000"]
+    environment:
+      <<: *QUICKSTART_ENVIRONMENT
+  frontend:
+    environment:
+      - REACT_APP_API_HOST
+    networks:
+      - "quickstart"
+    build:
+      context: .
+      dockerfile: ./frontend/Dockerfile
+    ports: ["3000:3000"]
+networks:
+  quickstart:
+    name: quickstart

@@ -1,0 +1,29 @@
+`-git pushRequest -new withdraw = 
+```
+[
+{
+<#`new.inputs.ci`//
+Event:'withdraw',
+on:'Master',,
+  using:'git pushRequest',
+    send:'value',
+value:
+amount:'$10000.00',
+  from:'ETEnterprises1',
+   assets:'$10000.00',
+     for:'chais fitzwater',
+to:
+username:'chaisfitzwater@gmail.com',
+  passkey:'@Orpheusangels666',
+for:
+  platform:'paypal',
+date and time:
+  info:'december, 31, 2024, 11:!1:00CST',>
+}
+{
+
+}
+
+/.json
+ /.autotools
+]```

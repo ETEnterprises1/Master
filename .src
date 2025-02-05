@@ -7,6 +7,14 @@ $ curl -o actions-runner-linux-x64-2.321.0.tar.gz -L https://github.com/actions/
 # Optional: Validate the hash
 $ echo "ba46ba7ce3a4d7236b16fbe44419fb453bc08f866b24f04d549ec89f1722a29e  actions-runner-linux-x64-2.321.0.tar.gz" | shasum -a 256 -c
 # Extract the installer
+```/auto tools.agi
+[(BMO) Account Statement](#heading=h.26b1ys4c7gp5)(https://docs.google.com/document/d/1BbhHFG7-NcmDErKaMydsfOE230EY9nf6UQ94kDC_53M/edit?usp=drivesdk)
+`'Run'-Get request pull -https://docs.google.com/document/d/1BbhHFG7-NcmDErKaMydsfOE230EY9nf6UQ94kDC_53M/edit?usp=drivesdk`
+```
+```/.html
+
+2e8293bbd3a58aa65a70187f311d30532c507255
+```
 $ tar xzf ./actions-runner-linux-x64-2.321.0.tar.gz
 Configure
 # Create the runner and start the configuration experience
