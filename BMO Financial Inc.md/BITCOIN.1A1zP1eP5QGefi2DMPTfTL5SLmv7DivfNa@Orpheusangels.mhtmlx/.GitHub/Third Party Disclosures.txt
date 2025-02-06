@@ -1,0 +1,374 @@
+"Skip to main content
+
+Third Party Disclosures
+This archive provides you with the notices and source code for certain third party components shipped with Microsoft products, in accordance with the corresponding licenses that contain disclosure obligations. Please note that we frequently contribute our modifications back to the original open source projects, so you may also find our contributions in the associated open source projects.  Compliance Inquiry
+
+Filter by product:
+
+27926 results filtered
+SQL Server
+SQL Server 2019
+Chardet-4.0.0
+Download
+SQL Server
+SQL Server 2019
+PyGObject-3.40.1
+Download
+SQL Server
+SQL Server 2019
+certifi-2021.5.30
+Download
+SQL Server
+SQL Server 2019
+gensim-3.8.3
+Download
+SQL Server
+SQL Server 2019
+jersey-core-1.19
+Download
+SQL Server
+SQL Server 2019
+pathspec-0.8.1
+Download
+SQL Server
+SQL Server 2019
+pycairo-1.20.1
+Download
+SQL Server
+SQL Server 2019
+pyzmq-22.1.0
+Download
+SQL Server
+SQL Server 2019
+tqdm-4.61.2
+Download
+SQL Server
+SQL Server 2019
+websocket-client-1.1.0
+Download
+A4O VSSF
+5.1
+certifi-2019.11.28
+Download
+A4O VSSF
+5.1
+chardet-3.0.4
+Download
+A4O VSSF
+5.1
+python-augeas-0.5.0
+Download
+AKS Istio Addon
+Public Preview
+certifi-2022.12.7
+Download
+AKS Istio Addon
+Public Preview
+chardet-3.0.4
+Download
+AKS Istio Addon
+Public Preview
+check-master
+Download
+AKS Istio Addon
+Public Preview
+cli-1.0.0
+Download
+AKS Istio Addon
+Public Preview
+cli-1.1.0
+Download
+AKS Istio Addon
+Public Preview
+cli-1.1.4
+Download
+AKS Istio Addon
+Public Preview
+consul-1.1.0
+Download
+Avere FXT
+14.0.0
+libiconv_1.16
+Download
+Avere FXT
+14.0.0
+lsof_4.94.0
+Download
+Avere FXT
+14.0.0
+mcelog_175
+Download
+Avere FXT
+14.0.0
+memtester_4.5.0
+Download
+Avere FXT
+14.0.0
+mpfr_4.1.0
+Download
+Avere FXT
+14.0.0
+net-snmp_5.7.3
+Download
+Avere FXT
+14.0.0
+openldap-sasl-client_2.4.47
+Download
+Avere FXT
+14.0.0
+php_7.2.34
+Download
+Avere FXT
+14.0.0
+pstree_2.39
+Download
+Avere FXT
+14.0.0
+py-chardet_3.0.4
+Download
+Avere FXT
+14.0.0
+python_3.8.8
+Download
+Avere FXT
+14.0.0
+readline_8.1.0
+Download
+Avere FXT
+14.0.0
+rrd_1.7.0
+Download
+Avere FXT
+14.0.0
+samba_3.6.3
+Download
+Avere FXT
+14.0.0
+scapy_2.4.0
+Download
+Avere FXT
+14.0.0
+smartmontools_6.6
+Download
+Avere FXT
+14.0.0
+tinymce_similar_unknown
+Download
+Avere FXT
+14.0.0
+uwsgi_2.0.19.1
+Download
+Avere FXT
+14.0.0
+valgrind_3.10.1.20160113
+Download
+Avere FXT
+14.0.0
+wireshark_3.4.3
+Download
+Avere FXT
+15.2.0
+FreeBSD_13.0
+Download
+Avere FXT
+15.2.0
+Third Party Notices
+Download
+Avere FXT
+15.2.0
+avahi_0.7
+Download
+Avere FXT
+15.2.0
+avere_samba_util_0
+Download
+Avere FXT
+15.2.0
+bash_5.1.4
+Download
+Avere FXT
+15.2.0
+bind-tools_9.11.6
+Download
+Avere FXT
+15.2.0
+cacerts_unknown
+Download
+Avere FXT
+15.2.0
+certifi_2021.10.8
+Download
+Avere FXT
+15.2.0
+cifs_info_server_0
+Download
+Avere FXT
+15.2.0
+cmdwatch_0.2.0
+Download
+Avere FXT
+15.2.0
+dmidecode_3.2
+Download
+Avere FXT
+15.2.0
+gdb-libcxx-pretty-printers_306cab3
+Download
+Avere FXT
+15.2.0
+gdb_11.1
+Download
+Avere FXT
+15.2.0
+gdbm_1.19
+Download
+Avere FXT
+15.2.0
+gettext-runtime_0.19.8.1
+Download
+Avere FXT
+15.2.0
+glib_2.70.2
+Download
+Avere FXT
+15.2.0
+gmp_6.2.1
+Download
+Avere FXT
+15.2.0
+iperf_2.1.0.r2
+Download
+Avere FXT
+15.2.0
+ipmitool_1.8.18
+Download
+Avere FXT
+15.2.0
+libdaemon_0.14
+Download
+Avere FXT
+15.2.0
+libgcrypt_1.9.4
+Download
+Avere FXT
+15.2.0
+libgpg-error_1.41
+Download
+Avere FXT
+15.2.0
+libiconv_1.16
+Download
+Avere FXT
+15.2.0
+lsof_4.94.0
+Download
+Avere FXT
+15.2.0
+mcelog_175
+Download
+Avere FXT
+15.2.0
+memtester_4.5.0
+Download
+Avere FXT
+15.2.0
+mpfr_4.1.0
+Download
+Avere FXT
+15.2.0
+net-snmp_5.7.3
+Download
+Avere FXT
+15.2.0
+openldap-sasl-client_2.4.59
+Download
+Avere FXT
+15.2.0
+php_7.2.34
+Download
+Avere FXT
+15.2.0
+pstree_2.39
+Download
+Avere FXT
+15.2.0
+py-chardet_4.0.0
+Download
+Avere FXT
+15.2.0
+python_3.8.8
+Download
+Avere FXT
+15.2.0
+readline_8.1.0
+Download
+Avere FXT
+15.2.0
+rrd_1.7.0
+Download
+Avere FXT
+15.2.0
+samba_3.6.3
+Download
+Avere FXT
+15.2.0
+scapy_2.4.0
+Download
+Avere FXT
+15.2.0
+smartmontools_6.6
+Download
+Avere FXT
+15.2.0
+tinymce_similar_unknown
+Download
+Avere FXT
+15.2.0
+uwsgi_2.0.20
+Download
+Avere FXT
+15.2.0
+valgrind_3.10.1.20160113
+Download
+Avere FXT
+15.2.0
+wireshark_3.6.0
+Download
+Avere FXT
+2022.08.1
+FreeBSD_13.0
+Download
+Avere FXT
+2022.08.1
+Third Party Notices
+Download
+Avere FXT
+2022.08.1
+avahi_0.7
+Download
+Avere FXT
+2022.08.1
+avere_samba_util_0
+Download
+Avere FXT
+2022.08.1
+bash_5.1.4
+Download
+Avere FXT
+2022.08.1
+bind-tools_9.11.6
+Download
+Avere FXT
+2022.08.1
+cacerts_unknown
+Download
+Avere FXT
+2022.08.1
+certifi_2021.10.8
+Download
+Contact
+Terms of Use
+Trademarks
+Privacy & Cookies
+© 2023 Microsoft"
+ https://3rdpartysource.microsoft.com/#:~:text=Skip%20to%20main,%C2%A9%C2%A02023%C2%A0Microsoft

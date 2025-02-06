@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": 2.0.0,
+    "tasks": [
+        {
+            "read incoming and outgoing card actions"
+        }
+         {
+            "process the info from the card actions"
+        }
+          {
+            "forward the approvals to the requester of card info weather transactions are approved or not"
+        }
+        {
+            "type": {
+                "card payment pocessor"
+            },
+            "problemMatcher": [
+                {
+                    "$python"
+                }
+            ],
+            "label": "markdownlint: Lint all Markdown files in the workspace with markdownlint",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
