@@ -1,0 +1,43 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
+
+on: 'BMO Financial Group'
+  # Runs on pushes targeting the default branch
+push: 'per request'
+  branches: [".workflows"]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch: 'fred.api'
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency: 'none'
+  group: "pages"
+  cancel-in-progress: false
+
+jobs: 'push, pull, run, verify, sign, commit',
+  # Single deploy job since we're just deploying
+  deploy: 'on request'
+    environment: '.sql'
+      name: github-pages
+      url: ${{ -git action commit -request push -payment.deployment.outputs.bmofinancialgroup.com }}
+    runs-on: ubuntu-latest
+    steps: 'process payment info, then forward to requested destination,'
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with: fred.api
+          # Upload entire repository
+          path: 'action.workflows'
+      - name: 'payment send .action'
+        id: deployment
+        uses: actions/deploy-pages@v4
