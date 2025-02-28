@@ -14,7 +14,7 @@ Home  News  National Terrorism Advisory System  Developer Resources  Widget
 NTAS Widget
 Stay connected to any alerts from the Department of Homeland Security by placing this National Terrorism Advisory System widget on your website. Simply copy and paste the code below and the status will be updated on your site the moment it is on ours.
 
-
+<iframe style="border: 1px solid #333333; overflow: hidden; width: 190px; height: 490px;" src="//research.stlouisfed.org/fred-glance-widget.php" height="240" width="320" frameborder="0" scrolling="no"></iframe>
 
 <iframe src="https://www.dhs.gov/ntas/" name="National Terrorism Advisory System" title="National Terrorism Advisory System" width="170" height="180" scrolling="no" frameborder="0" seamless border="0"></iframe>
 NOTE: The width and height of the IFRAME can be adjusted to suit the design of your page. Please note that using a width smaller than 170 will obscure the NTAS image.
